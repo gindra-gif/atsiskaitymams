@@ -1,0 +1,141 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/css?family=KanitRokkitt&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Figura 1.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Header</h2>
+      </header>
+      <div class="container2">
+        <div class="container3">
+          <section class="pilka">
+            <h2>Hero</h2>
+          </section>
+          <aside class="zalia">
+            <h2>Sidebar</h2>
+          </aside>
+        </div>
+        <div class="container4">
+          <main class="geltona">
+            <h2>Main content</h2>
+            <p> </p>
+          </main>
+          <section class="pilka2">
+            <h2>Extra Content</h2>
+          </section>
+        </div>
+      </div>
+      <div class="container5">
+        <section class="tamszalia">
+          <h2>Related Images</h2>
+        </section>
+        <section class="rozine">
+          <h2>Related Posts</h2>
+        </section>
+      </div>
+      <footer class="footeris">
+        <h2>Footer</h2>
+      </footer>
+    </div>
+  </body>
+</html>
+
+CSS
+
+html,
+body {
+  height: 100%;
+}
+h2 {
+  font-family: 'Kanit', sans-serif;
+}
+p {
+  font-family: 'Rokkitt', serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container2 {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex: 4;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 4;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+header {
+  background-color: #4ed6ec;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pilka {
+  background-color: #d7c9e3;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+.zalia {
+  background-color: #9ec369;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 6;
+}
+.geltona {
+  background-color: #efc13f;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 6;
+}
+.pilka2 {
+  background-color: #898989;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 4;
+}
+.tamszalia {
+  background-color: #1a9e67;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+.rozine {
+  background-color: #e2bacb;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 2;
+}
+.footeris {
+  background-color: #ffa520;
+  text-align: center;
+}

@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+h2 {
+  font-family: 'Kanit', sans-serif;
+}
+p {
+  font-family: 'Rokkitt', serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container2 {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex: 4;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 4;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+header {
+  background-color: #4ed6ec;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pilka {
+  background-color: #d7c9e3;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+.zalia {
+  background-color: #9ec369;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 6;
+}
+.geltona {
+  background-color: #efc13f;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 6;
+}
+.pilka2 {
+  background-color: #898989;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 4;
+}
+.tamszalia {
+  background-color: #1a9e67;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+.rozine {
+  background-color: #e2bacb;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 2;
+}
+.footeris {
+  background-color: #ffa520;
+  text-align: center;
+}
